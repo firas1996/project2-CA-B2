@@ -12,6 +12,7 @@ function App() {
     if (status == "true") {
       setIsLoggedIn(true);
     }
+    console.log("111");
   }, []);
   console.log("test");
   const loginHandler = (email, password) => {
